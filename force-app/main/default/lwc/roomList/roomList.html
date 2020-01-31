@@ -1,0 +1,7 @@
+<template>
+    <template for:each={rooms} for:item="room">
+        <div key={room.id}>
+            <c-room icon={room.icon} room-name={room.name}></c-room>
+        </div>
+    </template>
+</template>
